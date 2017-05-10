@@ -1,0 +1,24 @@
+.feature {
+  text-align: center;
+}
+.action button {
+  border-radius: 0;
+  border: 1px solid #ffffff;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 10px 30px;
+}
+
+.action button:hover {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+.sub-title {
+  text-transform: uppercase;
+  font-size: 0.6em;
+}
+
+.content {
+  padding: 30px;
+}

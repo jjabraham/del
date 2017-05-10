@@ -1,0 +1,14 @@
+.landing-page {
+  padding: 0px 50px;
+}
+
+.landing-page .title {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+  .landing-page {
+    padding: 0px 10px;
+  }
+}

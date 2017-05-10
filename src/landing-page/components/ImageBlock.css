@@ -1,0 +1,25 @@
+.image-block {
+  align-items: center;
+  text-align: center;
+}
+.image-block-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.image {
+  flex: 1 0 50%;
+  padding: 1px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .image {
+    flex: 1 0 100%;
+  }
+}
